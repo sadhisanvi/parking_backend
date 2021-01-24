@@ -11,13 +11,13 @@
 	</parent>
 	<groupId>com.hcl</groupId>
 	<artifactId>parking</artifactId>
-	<version>0.3</version>
+	<version>0.4</version>
 	<name>parking</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
-		<sonar.host.url>http://20.185.255.173:9000/</sonar.host.url>
+		<sonar.host.url>http://40.121.69.125:9000/</sonar.host.url>
   		<sonar.login>admin</sonar.login>
  		<sonar.password>admin123</sonar.password>
 	</properties>
@@ -83,11 +83,11 @@
 	<distributionManagement>
 	  <snapshotRepository>
 	    <id>nexus</id>
-	    <url>http://20.185.255.173:8081/nexus/content/repositories/snapshots</url>
+	    <url>http://40.121.69.125:8081/nexus/content/repositories/snapshots</url>
 	  </snapshotRepository>
 	  <repository>
     		<id>nexus</id>
-   		<url>http://20.185.255.173:8081/nexus/content/repositories/releases</url>
+   		<url>http://40.121.69.125:8081/nexus/content/repositories/releases</url>
  	  </repository>
 	
 	</distributionManagement>
